@@ -30,7 +30,8 @@ export default defineConfig({
     nav: [
       { text: '快速开始', link: '/guide/what-is-vpython' },
       { text: '文档教程', link: '/contents/3DObjects/arrow' },
-      { text: '案例', link: '/reference' }
+      { text: '案例', link: '/reference' },
+      { text: '关于', link: '/about/' }
     ],
 
     sidebar: {
