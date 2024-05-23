@@ -6,6 +6,7 @@ export default defineConfig({
   title: "VPython 中文文档",
   description: "A guide for Vpython",
   themeConfig: {
+    logo: '/logo.svg',
        // 设置搜索框的样式
     search: {
         provider: "local",
