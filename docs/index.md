@@ -8,14 +8,20 @@ hero:
   tagline: 极易上手的3D编程
   actions:
     - theme: brand
-      text: 阅读文档
-      link: /3DObjects/arrow
+      text: 快速开始
+      link: /guide/what-is-vpython
+    - theme: brand
+      text: 文档教程
+      link: /contents/3DObjects/arrow
     - theme: alt
-      text: 物理猫首页
+      text: Vpython官网
+      link: https://vpython.org/
+    - theme: alt
+      text: 物理猫
       link: https://www.phycat.cn
-  # image:
-  #     src: /demo.png
-  #     alt: vpython
+  image:
+      src: /vpython.png
+      alt: vpython
 
 features:
   - title: Python语法
@@ -25,4 +31,10 @@ features:
   - title: 功能强大
     details: 具有丰富的组件与强大数学运算
 ---
+<style>
 
+..image-bg{
+  background:lavender!important;
+}
+
+</style>
