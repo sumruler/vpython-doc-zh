@@ -31,10 +31,4 @@ features:
   - title: 功能强大
     details: 具有丰富的组件与强大数学运算
 ---
-<style>
 
-..image-bg{
-  background:lavender!important;
-}
-
-</style>

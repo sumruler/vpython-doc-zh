@@ -172,13 +172,14 @@ export default defineConfig({
         text: '用户输入',
         collapsed: true,
         items: [
-         { text: '按钮', link: '/contents/UserInput/Button' },
+         { text: '按钮', link: '/contents/UserInput/Buttons' },
          { text: '复选框', link: '/contents/UserInput/Checkboxes' },
          { text: '按键输入', link: '/contents/UserInput/KeyInput' },
          { text: '下拉菜单', link: '/contents/UserInput/Menus' },
          { text: '鼠标输入', link: '/contents/UserInput/MouseInput' },
          { text: '单选按钮', link: '/contents/UserInput/RadioButtons ' },
          { text: '文本输入', link: '/contents/UserInput/TextInput' },
+         { text: '滑块', link: '/contents/UserInput/Sliders' },
          { text: '小部件定位', link: '/contents/UserInput/WidgetPosition' },
          { text: '处理事件', link: '/contents/UserInput/ProcessingEvents' },
 
@@ -190,5 +191,11 @@ export default defineConfig({
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
+  },
+  locales:{
+    root:{
+      label:'简体中文',
+      lang:'zh'
+    }
   }
 })

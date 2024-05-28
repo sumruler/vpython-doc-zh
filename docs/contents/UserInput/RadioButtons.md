@@ -1,6 +1,6 @@
 # 单选按钮
 
-<img width="250" height="170" src="https://www.glowscript.org/docs/VPythonDocs/_images/radio.png" alt="radio button"/>
+<img width="250" height="170" src="https://cdn.phycat.cn/localediter/202405281927763.png" alt="radio button"/>
 
 一组单选按钮提供互斥选择。选中一个按钮将取消选中所有其他按钮。组中的所有单选按钮必须具有相同的 *name* 属性。
 

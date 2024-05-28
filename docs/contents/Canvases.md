@@ -101,7 +101,7 @@ canvas(title='This is the &lt;i&gt;Title&lt;/i&gt;', caption='This is the &lt;b&
 
 ### 重绘事件
 
-VPython大约每秒重绘整个画布60次。如果由于某种原因您希望等待屏幕开始或完成重绘，可以使用 [scene.waitfor()](https://www.glowscript.org/docs/VPythonDocs/mouse.html#waitfor)。
+VPython大约每秒重绘整个画布60次。如果由于某种原因您希望等待屏幕开始或完成重绘，可以使用 [scene.waitfor()](/contents/UserInput/MouseInput.html#scene-waitfor)。
 
 #### 开始重绘
 

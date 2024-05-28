@@ -28,7 +28,7 @@ cube = box(pos=vec(1,0,0), color=color.green)
 scene.waitfor('click keydown')
 ```
 
-有关详细讨论，请参见 [鼠标输入](https://www.glowscript.org/docs/VPythonDocs/mouse.html)。
+有关详细讨论，请参见 [鼠标输入](MouseInput)。
 
 ## 事件处理程序
 

@@ -76,13 +76,13 @@ thing = extrusion(shape=[outershape, innershape], path=zpath, color=color.yellow
 
 ## 常见形状和路径
 
-VPython提供了一个[常用形状库](https://www.glowscript.org/docs/VPythonDocs/shapes_and_paths.html)：*xy*平面中的封闭图形。每个形状都是预计算的*x-y*对列表。你可以在制作挤压物时使用这些形状：
+VPython提供了一个[常用形状库](ShapesandPaths)：*xy*平面中的封闭图形。每个形状都是预计算的*x-y*对列表。你可以在制作挤压物时使用这些形状：
 
 ```python
 myextrusion = extrusion(shape=shapes.rectangle(width=10, height=6), path=mypath)
 ```
 
-[路径库](https://www.glowscript.org/docs/VPythonDocs/shapes_and_paths.html)包含与形状库相同的图形。然而，每条路径都是预计算的3D向量位置列表。
+[路径库](ShapesandPaths)包含与形状库相同的图形。然而，每条路径都是预计算的3D向量位置列表。
 
 要沿圆形路径挤压三角形形状，可以使用这些库：
 
@@ -94,7 +94,7 @@ oddring = extrusion(shape=trishape, path=circpath, color=color.yellow)
 
 ![_images/extrusion3.png](https://cdn.phycat.cn/localediter/202405181628151.png)
 
-有关这些库的详细文档，请参见[形状和路径库](https://www.glowscript.org/docs/VPythonDocs/shapes_and_paths.html)。
+有关这些库的详细文档，请参见[形状和路径库](ShapesandPaths)。
 
 ## 颜色混合
 

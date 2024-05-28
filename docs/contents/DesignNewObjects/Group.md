@@ -7,7 +7,7 @@
 
 这是 *group* 的一个beta版本。点、曲线、螺旋线和标签目前无法使用 *group*。*group* 的 *size* 属性存在，但没有实际意义。
 
-组是对象的集合。移动或旋转组会影响组中的所有对象。但是，属于组的对象保留其身份，可以单独旋转、调整大小、着色等（相比之下，用于创建 [compound](https://www.glowscript.org/docs/VPythonDocs/compound.html) 的对象一旦被合并就会失去其个体身份。Compound 在计算上比 group 更加廉价）。
+组是对象的集合。移动或旋转组会影响组中的所有对象。但是，属于组的对象保留其身份，可以单独旋转、调整大小、着色等（相比之下，用于创建 [compound](Compound) 的对象一旦被合并就会失去其个体身份。Compound 在计算上比 group 更加廉价）。
 
 例如，使用一个组可以创建一个汽车，整个组移动时车轮会转动，就像这个 [示例程序](https://www.glowscript.org/#/user/GlowScriptDemos/folder/Examples/program/Car) 中所示。
 

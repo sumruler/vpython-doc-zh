@@ -1,17 +1,8 @@
 # 鼠标输入
 
-目录
-
-- [鼠标输入](#mouse-input)
-    - [scene.pause](#scene-pause)
-    - [scene.waitfor()](#scene-waitfor)
-    - [scene.mouse()](#scene-mouse)
-    - [scene.mouse.project()](#scene-mouse-project)
-    - [鼠标事件处理程序](#mouse-event-handlers)
-
 点击或拖动鼠标会生成事件。VPython 目前不处理右键或中键事件。
 
-## [scene.pause](#id2)
+## scene.pause
 
 使用鼠标的最简单方法是暂停并等待鼠标点击：
 
@@ -27,7 +18,7 @@ myevt = scene.pause()
 - `myevt.pos` 鼠标在世界坐标中的位置（一个向量）。
 - `myevt.which` 鼠标按钮指示器（目前始终为 1）。
 
-## [scene.waitfor()](#id3)
+## scene.waitfor()
 
 使用 `scene.waitfor()` 可以指定事件类型（除了下面列出的鼠标事件外，还可以包括按键事件或重绘事件）。`scene.waitfor()` 会暂停程序，直到特定事件发生。
 
@@ -58,7 +49,7 @@ myevt = scene.waitfor('click')
 - `myevt.canvas` 事件发生的画布。
 - `myevt.which` 鼠标按钮指示器（目前始终为 1）。
 
-## [scene.mouse()](#id4)
+## scene.mouse()
 
 有关鼠标当前状态的信息可以在 `scene.mouse()` 中随时查询。
 
@@ -75,7 +66,7 @@ mickey = scene.mouse()
 | ctrl   | 布尔值 | 如果按下 CTRL 键，则为 True。                                                         |
 | shift  | 布尔值 | 如果按下 SHIFT 键，则为 True。                                                        |
 
-## [scene.mouse.project()](#id5)
+## scene.mouse.project()
 
 此方法返回将鼠标光标投影到平行于指定法线并通过指定点的平面上的 3D 位置。如果与平面没有交点，则返回 None。
 
@@ -105,7 +96,7 @@ while True:
         sphere(pos=mpos, radius=0.1, color=color.green)
 ```
 
-## [鼠标事件处理程序](#id6)
+## 鼠标事件处理程序
 
 可以将鼠标事件绑定到一个函数。
 

@@ -47,4 +47,4 @@ while True:
 
 另请参见：
 
-[事件处理程序](https://www.glowscript.org/docs/VPythonDocs/userinput.html#eventhandler); [处理事件](https://www.glowscript.org/docs/VPythonDocs/userinput.html#event-handling); [轮询](https://www.glowscript.org/docs/VPythonDocs/userinput.html#polling); [小部件位置](https://www.glowscript.org/docs/VPythonDocs/widgetPosition.html)
+[事件处理程序](ProcessingEvents.html#事件处理程序); [处理事件](ProcessingEvents.html#事件处理程序); [轮询](ProcessingEvents.html#轮询); [小部件定位](WidgetPosition)

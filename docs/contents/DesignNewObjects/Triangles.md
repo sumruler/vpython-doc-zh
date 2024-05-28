@@ -1,4 +1,4 @@
-# [三角形网格](#id3)
+# 三角面
 
 ## 图片示例
 <img width="250" height="206" src="https://cdn.phycat.cn/localediter/202405181622228.png"/>

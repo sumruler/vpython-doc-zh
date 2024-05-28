@@ -1,8 +1,8 @@
-# 键盘输入
+# 按键输入
 
-本节处理单个或组合键按下的输入。有关输入较长字符串的信息，请参见 [文本输入](https://www.glowscript.org/docs/VPythonDocs/textinput.html)。
+本节处理单个或组合键按下的输入。有关输入较长字符串的信息，请参见 [文本输入](TextInput)。
 
-有关处理输入基础知识的讨论，请参见 [处理事件](https://www.glowscript.org/docs/VPythonDocs/userinput.html#event-handling)。
+有关处理输入基础知识的讨论，请参见 [处理事件](ProcessingEvents)。
 
 Jupyter notebook 限制：键盘事件被 Jupyter notebook 作为用户界面的一部分所吞噬，因此 VPython 程序无法使用这些事件。
 

@@ -2,13 +2,7 @@
 
 `winput` 和 `input` 命令允许用户输入由程序处理的文本。
 
-目录
-
-- [文本输入](#text-input)
-    - [input](#input)
-    - [winput](#winput)
-
-## [input](#id2)
+## input
 
 `input()` 函数接受来自弹出对话框的用户输入。这类似于 Python 的 `input()` 函数，但允许指定提示。
 
@@ -31,7 +25,7 @@ else:
     print('Goodbye')
 ```
 
-## [winput](#id3)
+## winput
 
 `winput()` 小部件可以放置在画布的说明区域（默认位置）或标题区域。它显示一个用户可以输入的框。用户必须在输入文本之前选择文本输入区域。当用户按下 *Enter* 或 *Tab* 键或点击 VPython 画布之外的地方时，绑定到 *winput* 小部件的函数将被执行。如果某些属性在创建后不能修改，则标记为“不可修改”。
 
