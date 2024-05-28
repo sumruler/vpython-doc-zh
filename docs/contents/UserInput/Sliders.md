@@ -40,7 +40,7 @@ def stretch(evt):
 xslider = slider(bind=stretch, max=5, min=0.5, step=0.1, value=cc.length, id='x')
 ```
 
-滑块没有文本字段。如果你希望显示滑块的当前值，请使用 [wtext](wtext)。
+滑块没有文本字段。如果你希望显示滑块的当前值，请使用 [wtext](/contents/TextOutput/wtext)。
 
 ## 滑块事件属性
 
